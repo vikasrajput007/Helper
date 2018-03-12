@@ -14,6 +14,8 @@ import static com.example.helper.utils.Constants.FIREBASE_TOKEN;
 
 public class FirebaseIDService extends FirebaseInstanceIdService
 {
+    String ab;
+
     private static final String TAG = "FirebaseIDService";
     String refreshedToken;
     @Override
