@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="vendor_register_header_height">55dp</dimen>
+    <dimen name="vendor_register_header">20sp</dimen>
+    <dimen name="vendor_register_text">14sp</dimen>
+    <dimen name="header_back_width_height">24dp</dimen>
+    <dimen name="logo_width">100dp</dimen>
+    <dimen name="logo_height">130dp</dimen>
+    <dimen name="field_margin_top">14dp</dimen>
+    <dimen name="vendor_register_header_back_padding">8sp</dimen>
+    <dimen name="submit_vendor_detail_height">55dp</dimen>
+    <dimen name="vendor_et_margin_start_end">8dp</dimen>
+    <dimen name="text_width">227dp</dimen>
+    <dimen name="text_height">43dp</dimen>
+    <dimen name="vendor_et_height">45dp</dimen>
+    <dimen name="vendor_signup_continue_button_height">55dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="nav_header_image_height">70dp</dimen>
+    <dimen name="nav_header_image_width">75dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="progress_bar_width">40dp</dimen>
+    <dimen name="progress_bar_height">40dp</dimen>
+    <dimen name="custom_progress_bar_width">125dp</dimen>
+    <dimen name="waiting_for_vendor_progress_bar_width">65dp</dimen>
+    <dimen name="waiting_for_vendor_progress_bar_height">65dp</dimen>
+    <dimen name="custom_progress_bar_height">125dp</dimen>
+    <dimen name="avtar_width">76dp</dimen>
+    <dimen name="avtar_height">76dp</dimen>
+    <dimen name="avtar_margin_bottom">112dp</dimen>
+    <dimen name="timer_text_size">7sp</dimen>
+    <dimen name="userhome_timer_text_size">15sp</dimen>
+    <dimen name="button_text_height">40dp</dimen>
+    // user registraion
+    <dimen name="text_field_margin_top">300dp</dimen>
+    <dimen name="registraion_string_margin_top">50dp</dimen>
+    <dimen name="button_height">50dp</dimen>
+
+    <dimen name="text_field_height">40dp</dimen>
+    <dimen name="constraint_vertical_bias">0.0</dimen>
+
+    // your_locality_layout
+    <dimen name="map_relative_height">200dp</dimen>
+    <dimen name="location_layout_height">10dp</dimen>
+    <dimen name="want_service_text_size">11sp</dimen>
+    <dimen name="location_icon_size">20dp</dimen>
+    <dimen name="location_icon_margin_left">20dp</dimen>
+
+    // change_location_location
+    <dimen name="change_location_margin_start">40dp</dimen>
+    <dimen name="change_location_margin_end">40dp</dimen>
+    <dimen name="change_location_button_margin_bottom">20dp</dimen>
+    <dimen name="change_location_margin_top">70dp</dimen>
+    <dimen name="change_location_margin_bottom">70dp</dimen>
+    <dimen name="margin_bottom_for_required_place">50dp</dimen>
+    <dimen name="location_change_helper_logo_width">60dp</dimen>
+    <dimen name="location_change_helper_logo_height">110dp</dimen>
+    <dimen name="location_logo_height">60dp</dimen>
+    <dimen name="do_not_service_text_size">13sp</dimen>
+    <dimen name="text_size_for_required_location">15sp</dimen>
+    <dimen name="change_location_button_vertical_bias">1.0</dimen>
+    <dimen name="required_location_button_vertical_bias">0.70</dimen>
+    <dimen name="change_location_height">40dp</dimen>
+
+    // dashboard
+    <dimen name="repair_item_layout_height">70dp</dimen>
+    <dimen name="repair_item_image_height">59dp</dimen>
+    <dimen name="repair_item_image_width">65dp</dimen>
+    <dimen name="repair_item_text_size">16sp</dimen>
+    <dimen name="map_for_vendor_position_height">230dp</dimen>
+    <dimen name="vendor_card_detail_height">148dp</dimen>
+    <dimen name="card_vertical_bias">0.70</dimen>
+    <dimen name="vendor_card_image_size">70dp</dimen>
+    <dimen name="vendor_name_text_size">18sp</dimen>
+    <dimen name="vendor_service_text_size">13sp</dimen>
+    <dimen name="vendor_call_text_width">82dp</dimen>
+    <dimen name="vendor_call_text_height">27dp</dimen>
+    <dimen name="vendor_call_cancel_text_size">10sp</dimen>
+    <dimen name="vendor_call_cancel_horizontal_bias">0.842</dimen>
+    <dimen name="vendor_call_cancel_padding">3dp</dimen>
+    <dimen name="vendor_status_layout_height">80dp</dimen>
+    <dimen name="vendor_status_card_horizontal_bias">0.076</dimen>
+    <dimen name="vendor_progress_image_horizontal_bias">0.049</dimen>
+    <dimen name="vendor_progress_text_horizontal_bias">0.245</dimen>
+    <dimen name="update_image_size">24dp</dimen>
+
+
+    // otp design
+    <dimen name="otp_text_field_height">50dp</dimen>
+    <dimen name="otp_number_text_field_width">40dp</dimen>
+    <dimen name="FourBoxesConstraintLayoutWidth">368dp</dimen>
+    <dimen name="FourBoxesDigitTextSize">20sp</dimen>
+    <dimen name="OTPNumbersTextBoxHeight">40dp</dimen>
+    <dimen name="OTPBoxesWidthMiddle2One">35dp</dimen>
+    <dimen name="otp_verify_image_width">95dp</dimen>
+    <dimen name="otp_verify_image_height">117dp</dimen>
+    <dimen name="otp_layout_width">239dp</dimen>
+    <dimen name="otp_layout_height">40dp</dimen>
+    <dimen name="digit_width">35dp</dimen>
+    <dimen name="relax_back_width">83dp</dimen>
+    <dimen name="relax_back_height">45dp</dimen>
+    <dimen name="relax_back_margin_bottom">116dp</dimen>
+    <dimen name="relax_and_back_text_size">10sp</dimen>
+    <dimen name="verify_message_layout">150dp</dimen>
+
+
+    //home page dimensions
+    <dimen name="recommended_services_text_size">14sp</dimen>
+    <dimen name="service_name_text_size">12sp</dimen>
+    <dimen name="toolbar_height">90dp</dimen>
+    <dimen name="search_bar_height">35dp</dimen>
+    <dimen name="select_service_height">45dp</dimen>
+    <dimen name="toolbar_text_size">28sp</dimen>
+    <dimen name="select_service_text_size">20sp</dimen>
+    <dimen name="all_service_recycler_margin_left">10dp</dimen>
+    <dimen name="all_service_recycler_margin_bottom">3dp</dimen>
+
+    <!--//  service item attributes-->
+    <!--<dimen name="service_item_height">98dp</dimen>-->
+    <dimen name="service_image_width_height">40dp</dimen>
+    <dimen name="service_text_size">11sp</dimen>
+    <dimen name="service_item_height">105dp</dimen>
+    <dimen name="first_service_item_height">90dp</dimen>
+    <dimen name="item_height_image">45dp</dimen>
+    <dimen name="service_recycler_height">190dp</dimen>
+    <dimen name="service_type_parent_layout_height">180dp</dimen>
+
+
+    // new dimens value
+    <dimen name="service_type_layout_height">160dp</dimen>
+    <dimen name="service_type_layout_height_second">195dp</dimen>
+    <dimen name="service_type_image_width">45dp</dimen>
+    <dimen name="inner_service_type_image_height">80dp</dimen>
+    <dimen name="inner_service_type_image_width">90dp</dimen>
+    <dimen name="inner_service_item_height">125dp</dimen>
+    <dimen name="slider_height">170dp</dimen>
+    <dimen name="inner_service_type_recycler_height">140dp</dimen>
+    <dimen name="service_item_root_layout_width">120dp</dimen>
+    <dimen name="edit_profile_button_margin_left">70dp</dimen>
+
+    // all services list
+
+    <dimen name="all_service_list_item_text_size">16sp</dimen>
+    <dimen name="all_service_list_item_width_height">70dp</dimen>
+    <dimen name="all_service_parent_width_height">170dp</dimen>
+    <dimen name="otp_button_height">48dp</dimen>
+
+
+    //payal dimens values
+
+    <dimen name="camera_image_left_margin">62dp</dimen>
+    <dimen name="vendor_profile_constraint_first_height">130dp</dimen>
+    <dimen name="vendor_profile_constraint_second_height">125dp</dimen>
+    <dimen name="vendor_profile_constraint_third_height">125dp</dimen>
+    <dimen name="vendor_profile_constraint_fourth_height">75dp</dimen>
+    <dimen name="vendor_text_size">20sp</dimen>
+    <dimen name="vendor_profile_text_size">15sp</dimen>
+    <dimen name="vendor_profile_text_small_size">13sp</dimen>
+    <dimen name="vendor_home_text_size">15sp</dimen>
+    <dimen name="vendor_button_size">48dp</dimen>
+    <dimen name="history_cardView_hieght">105dp</dimen>
+    <dimen name="payment_cardView_hieght">80dp</dimen>
+    <dimen name="history_vendorname_size">16sp</dimen>
+    <dimen name="history_vendorAlltext_size">13sp</dimen>
+    <dimen name="text_deposited_size">20sp</dimen>
+    <dimen name="txt_recent20_size_">10sp</dimen>
+    <dimen name="text_amount_size">30dp</dimen>
+
+</resources>
+

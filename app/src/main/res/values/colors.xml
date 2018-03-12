@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">@color/header_color</color>
+    <color name="header_color">#2665AD</color>
+    <color name="helper_color">#2d69af</color>
+    <color name="app_white_color">#ffffff</color>
+    <color name="otp_background">#e1dfdf</color>
+    <color name="text_color">#717070</color>
+    <color name="black">#000000</color>
+    <color name="white">#fff</color>
+    <color name="service_item_background">#fefefe</color>
+
+</resources>

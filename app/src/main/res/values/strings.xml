@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">helper</string>
+    <string name="register_as_vendor">Register as Vendor</string>
+    <string name="registraion">Registration</string>
+    <string name="book_as_vendor">We need your information to book as Vendor</string>
+    <string name="book_as_user">Please provide your detail to book a service</string>
+    <string name="title_activity_home__screen__helper">Home_Screen_Helper</string>
+
+
+    <string name="rupees_symbol">\u20B9</string>
+    <string name="Dott">&#8226;</string>
+    <string name="and">&#38;</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="your_name">Your Name</string>
+    <string name="continue_as_user">Continue</string>
+    <string name="register_as_a_vendor">Register as a Vendor</string>
+    <string name="i_want_services_at_my_current_location">I want services at my current location</string>
+    <string name="service_not_provided">We currently do not provide services in this locality, Please change locality</string>
+    <string name="service_cities">We currentlly serve in Chandigarh, \n Mohali,Shimla &#38; Dehli</string>
+    <string name="change_location">Yes, Change location</string>
+    <string name="want_service_place">Where do you want the service ?</string>
+    <string name="title_activity_user_home">Helper</string>
+    <string name="cancel">Cancel</string>
+    <!--<string name="search_location">Cancel</string>-->
+    <string name="call">Call</string>
+    <string name="recommended_services">Recommended Services</string>
+    <string name="todo">TODO</string>
+    <string name="verify_text">Please Wait we are \n verifying you.</string>
+    <string name="electrician">Electrician</string>
+    <string name="repair_services">Repair Services</string>
+    <string name="helper">helper</string>
+    <string name="my_wallet">My Wallet</string>
+    <string name="help_screen">Help Screen</string>
+    <string name="share_helper">Share Helper</string>
+    <string name="rate_helper">Rate Helper</string>
+    <string name="about_helper">About Helper</string>
+    <string name="select_service">Select Service</string>
+    <string name="new_request">A New Request from is received. Press Yes to Approve and Press No to Reject</string>
+    <string name="request_title">New Request received</string>
+    <string name="waiting_for_three_minute">A request already has been done. Please wait for 3 Mins for vendor to respond</string>
+    <string name="request_again">Our Vendor may be Engaged,\n Please Request Again</string>
+    <string name="request_again_to_different_vendor">Request To Different Vendor</string>
+    <string name="search_services">Search Services</string>
+    <string name="alert_dialog_ok">Ok</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="search_location">Search Service Location</string>
+    <string name="service_at_my_location">At my current location</string>
+
+</resources>

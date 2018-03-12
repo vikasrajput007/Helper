@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/vender_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/vender_profile"
+            android:icon="@drawable/profile_drawer"
+            android:title="Profile" />
+        <item
+            android:id="@+id/vender_history"
+            android:icon="@drawable/history_icon"
+            android:title="History" />
+        <item
+            android:id="@+id/vender_payment"
+            android:icon="@drawable/payment"
+            android:title="Payment" />
+
+         <item
+             android:id="@+id/vender_review"
+             android:icon="@drawable/review_drawer"
+             android:title="Review" />
+        <item
+            android:id="@+id/vender_logout"
+            android:icon="@drawable/logout_icon"
+            android:title="Logout" />
+    </group>
+
+
+
+</menu>

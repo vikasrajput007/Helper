@@ -1,0 +1,165 @@
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout6"
+    android:clickable="false"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/guideline13"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/guideline6"
+        app:layout_constraintTop_toBottomOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="1.0">
+
+        <!-- <a> circular progressbar xml</a> -->
+        <com.jackandphantom.circularprogressbar.CircleProgressbar
+            android:id="@+id/yourCircularProgressbar"
+            android:layout_width="@dimen/custom_progress_bar_width"
+            android:layout_height="@dimen/custom_progress_bar_height"
+            android:layout_marginEnd="64dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="22dp"
+            app:cpb_foregroundProgressColor="#1864c2"
+            app:cpb_foregroundProgressWidth="15"
+            app:cpb_progress="0"
+            app:cpb_roundedCorner="true"
+            app:cpb_touchEnabled="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.50"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/count_down_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please wait  03:00"
+            android:textSize="@dimen/timer_text_size"
+            android:textColor="#41b312"
+            app:layout_constraintBottom_toBottomOf="@+id/yourCircularProgressbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/yourCircularProgressbar"/>
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/vendor_image"
+            android:layout_width="@dimen/avtar_width"
+            android:layout_height="@dimen/avtar_height"
+            android:layout_marginBottom="@dimen/avtar_margin_bottom"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/avtar_image"
+            app:civ_border_color="#e1e2d5"
+            app:civ_border_width="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="5:3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.037"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.7"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cris Evan"
+            android:textColor="#333"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/address"
+            app:layout_constraintTop_toTopOf="@+id/vendor_image"/>
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="160dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:maxLines="2"
+            android:text="5th avenue,Cambridge Road"
+            app:layout_constraintStart_toStartOf="@+id/mobile_no"
+            app:layout_constraintTop_toBottomOf="@+id/name"/>
+
+        <TextView
+            android:id="@+id/mobile_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="9056459057"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.559"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/address"/>
+
+        <Button
+            android:id="@+id/accept"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_text_height"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="18dp"
+            android:text="Accept"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:background="@drawable/accept_bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/vendor_image"/>
+
+        <Button
+            android:id="@+id/decline"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_text_height"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="22dp"
+            android:text="Decline"
+            android:textStyle="bold"
+             android:background="@drawable/decline_bg"
+            android:textColor="#fff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/accept"/>
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15"/>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.078125"/>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.92"/>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9666012"/>
+
+</android.support.constraint.ConstraintLayout>

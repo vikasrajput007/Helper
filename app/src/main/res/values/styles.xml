@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+
+    <style name="vendor_signup_textfield_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/vendor_et_height</item>
+        <!--<item name="android:layout_marginEnd">@dimen/vendor_et_margin_start_end</item>-->
+        <item name="android:layout_marginRight">@dimen/vendor_et_margin_start_end</item>
+        <!--<item name="android:layout_marginStart">@dimen/vendor_et_margin_start_end</item>-->
+        <item name="android:layout_marginLeft">@dimen/vendor_et_margin_start_end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">10dp</item>
+        <!--<item name="android:textStyle">@style/Widget.AppCompat.AutoCompleteTextView</item>-->
+        <item name="android:ems">10</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+
+
+    <!--otp design-->
+    <!--<style name="otp_text_field_design" parent="Theme.AppCompat.Light">-->
+
+        <!--<item name="android:layout_width">@dimen/digit_width</item>-->
+        <!--<item name="android:layout_height">@dimen/OTPNumbersTextBoxHeight</item>-->
+        <!--<item name="android:inputType">number</item>-->
+        <!--<item name="android:maxLines">1</item>-->
+        <!--<item name="android:layout_marginEnd">10dp</item>-->
+        <!--<item name="android:layout_marginStart">40dp</item>-->
+        <!--<item name="editTextBackground">@drawable/text_field_bg</item>-->
+        <!--<item name="background">@drawable/rectangle_shape_background</item>-->
+        <!--<item name="android:clickable">true</item>-->
+        <!--<item name="android:paddingTop">5dp</item>-->
+        <!--<item name="android:textAlignment">center</item>-->
+        <!--<item name="@dimen/FourBoxesDigitTextSize" />-->
+
+     <!---->
+
+    <!--</style>-->
+</resources>
